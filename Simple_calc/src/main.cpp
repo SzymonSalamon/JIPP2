@@ -9,15 +9,16 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-    /*for(int i=0;i<argc;i++){
+    int a,b;
+    for(int i=0;i<argc;i++){
         cout << argv[i]<<endl;
-    }*/
+    }
     if(argc>3){
         cout << "Podano wiecej parametrow niz dopuszcza program zostana uzyte tylko pierwsze 3 parametry !!!"<<endl;
     }
     if(argc>=3){
-        int a = stoi(argv[2]);
-        int b = stoi(argv[3]);
+        a = stoi(argv[2]);
+        b = stoi(argv[3]);
         cout <<  a << endl << b;
     }
 
