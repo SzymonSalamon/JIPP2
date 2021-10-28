@@ -3,12 +3,7 @@
 //
 #include <iostream>
 using namespace std;
-/*
- * Funkcja wyswietla macierz
- *  Opis argumentow:
- *  tab: wskaznik do tablicy dwuwymiarowej przechowujacej macierz
- *  x,y: wymiary tablica (x-ilosc wierszow , y - ilosc kolumn)
- */
+
 void showMatrix(int** tab,int x, int y){
     for(int i=0;i<x;i++) {
         for (int j = 0; j < y; j++)

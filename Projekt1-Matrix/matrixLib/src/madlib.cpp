@@ -3,6 +3,7 @@
 //
 
 #include "../include/madlib.h"
+#include <math.h>
 
 void showMatrix(int** tab,int x, int y){
     for(int i=0;i<x;i++) {
@@ -18,16 +19,16 @@ void showMatrix(double** tab,int x, int y){
         cout <<endl;
     }
 }
-int** makeMatrix(int x,int y,bool pusta=false) {
+int** makeMatrix(int x,int y,bool pusta) {
     int **tab = new int * [x];
     int i;
     for (i = 0; i < x; i++)
         tab[i] = new int[y];
     if(pusta==false) {
+        cout << "Tworzenie Macierzy:" << endl;
         for (i = 0; i < x; i++) {
-            cout << i << "Podaj wartosci wiersza oddzielone spacja:" << endl;
+            cout  << "Podaj wartosci wiersza oddzielone spacja:" << endl;
             for (int j = 0; j < y; j++) {
-                cout << "Podaj Wartosc:" << endl;
                 cin >> tab[i][j];
             }
             cout << endl;
@@ -41,16 +42,16 @@ int** makeMatrix(int x,int y,bool pusta=false) {
     }
     return tab;
 }
-double** makeMatrixDouble(int x,int y,bool pusta=false) {
+double** makeMatrixDouble(int x,int y,bool pusta) {
     double **tab = new double * [x];
     int i;
     for (i = 0; i < x; i++)
         tab[i] = new double[y];
     if(pusta==false) {
+        cout << "Tworzenie Macierzy:" << endl;
         for (i = 0; i < x; i++) {
-            cout << i << "Podaj wartosci wiersza oddzielone spacja:" << endl;
+            cout << "Podaj wartosci wiersza oddzielone spacja:" << endl;
             for (int j = 0; j < y; j++) {
-                cout << "Podaj Wartosc:" << endl;
                 cin >> tab[i][j];
             }
             cout << endl;
@@ -79,14 +80,14 @@ double** addMatrix(double **tab1 ,double **tab2 ,int x,int y){
 }
 int** subtractMatrix(int **tab1 ,int **tab2 ,int x,int y){
     for(int i=0;i<x;i++)
-        for(int j=0;j<x;j++)
-            tab1[i][j] -= tab2[i][j];
+        for(int j=0;j<y;j++)
+            tab1[i][j] = tab1[i][j]-tab2[i][j];
     return tab1;
 }
 double** subtractMatrix(double **tab1 ,double **tab2 ,int x,int y){
     for(int i=0;i<x;i++)
-        for(int j=0;j<x;j++)
-            tab1[i][j] -= tab2[i][j];
+        for(int j=0;j<y;j++)
+            tab1[i][j] = tab1[i][j]-tab2[i][j];
     return tab1;
 }
 int** multiplyMatrix(int **tab1 ,int **tab2 ,int x,int y,int z){
@@ -214,4 +215,49 @@ void sortRowsInMatrix(double **tab,int x,int y){
         sortRow(tab[i],y);
 }
 //determinantMatrix
-
+int determinantMatrix( int** matrix, int n) {
+    int det = 0;
+    int** submatrix = makeMatrix(n,n,true);
+    if (n == 2)
+        return ((matrix[0][0] * matrix[1][1]) - (matrix[1][0] * matrix[0][1]));
+    else {
+        for (int x = 0; x < n; x++) {
+            int subi = 0;
+            for (int i = 1; i < n; i++) {
+                int subj = 0;
+                for (int j = 0; j < n; j++) {
+                    if (j == x)
+                        continue;
+                    submatrix[subi][subj] = matrix[i][j];
+                    subj++;
+                }
+                subi++;
+            }
+            det = det + (pow(-1, x) * matrix[0][x] * determinantMatrix( submatrix, n - 1 ));
+        }
+    }
+    return det;
+}
+double determinantMatrix( double** matrix, int n) {
+    double det = 0;
+    double ** submatrix = makeMatrixDouble(n,n,true);
+    if (n == 2)
+        return ((matrix[0][0] * matrix[1][1]) - (matrix[1][0] * matrix[0][1]));
+    else {
+        for (int x = 0; x < n; x++) {
+            int subi = 0;
+            for (int i = 1; i < n; i++) {
+                int subj = 0;
+                for (int j = 0; j < n; j++) {
+                    if (j == x)
+                        continue;
+                    submatrix[subi][subj] = matrix[i][j];
+                    subj++;
+                }
+                subi++;
+            }
+            det = det + (pow(-1, x) * matrix[0][x] * determinantMatrix( submatrix, n - 1 ));
+        }
+    }
+    return det;
+}
