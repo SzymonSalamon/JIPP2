@@ -14,9 +14,6 @@
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/firstLibCall/CMakeFiles/rebuild_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/firstLibCall/CMakeFiles/edit_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/firstLibCall/CMakeFiles/firstLibCall.dir
-/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/CMakeFiles/Projekt1.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix/CMakeFiles/rebuild_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix/CMakeFiles/edit_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix/matrixApp/CMakeFiles/rebuild_cache.dir

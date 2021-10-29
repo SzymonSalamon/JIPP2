@@ -68,7 +68,6 @@ all: allocation_basics/all
 all: Simple_calc/all
 all: firstLib/all
 all: firstLibCall/all
-all: Projekt1/all
 all: Projekt1-Matrix/all
 .PHONY : all
 
@@ -78,7 +77,6 @@ preinstall: allocation_basics/preinstall
 preinstall: Simple_calc/preinstall
 preinstall: firstLib/preinstall
 preinstall: firstLibCall/preinstall
-preinstall: Projekt1/preinstall
 preinstall: Projekt1-Matrix/preinstall
 .PHONY : preinstall
 
@@ -88,7 +86,6 @@ clean: allocation_basics/clean
 clean: Simple_calc/clean
 clean: firstLib/clean
 clean: firstLibCall/clean
-clean: Projekt1/clean
 clean: Projekt1-Matrix/clean
 .PHONY : clean
 
@@ -106,21 +103,6 @@ Firstclass/preinstall:
 # Recursive "clean" directory target.
 Firstclass/clean: Firstclass/CMakeFiles/firstClass.dir/clean
 .PHONY : Firstclass/clean
-
-#=============================================================================
-# Directory level rules for directory Projekt1
-
-# Recursive "all" directory target.
-Projekt1/all: Projekt1/CMakeFiles/Projekt1.dir/all
-.PHONY : Projekt1/all
-
-# Recursive "preinstall" directory target.
-Projekt1/preinstall:
-.PHONY : Projekt1/preinstall
-
-# Recursive "clean" directory target.
-Projekt1/clean: Projekt1/CMakeFiles/Projekt1.dir/clean
-.PHONY : Projekt1/clean
 
 #=============================================================================
 # Directory level rules for directory Projekt1-Matrix
@@ -237,7 +219,7 @@ firstLibCall/clean: firstLibCall/CMakeFiles/firstLibCall.dir/clean
 Firstclass/CMakeFiles/firstClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f Firstclass/CMakeFiles/firstClass.dir/build.make Firstclass/CMakeFiles/firstClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f Firstclass/CMakeFiles/firstClass.dir/build.make Firstclass/CMakeFiles/firstClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target firstClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target firstClass"
 .PHONY : Firstclass/CMakeFiles/firstClass.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,7 +245,7 @@ Firstclass/CMakeFiles/firstClass.dir/clean:
 allocation_basics/CMakeFiles/allocation_basic.dir/all:
 	$(MAKE) $(MAKESILENT) -f allocation_basics/CMakeFiles/allocation_basic.dir/build.make allocation_basics/CMakeFiles/allocation_basic.dir/depend
 	$(MAKE) $(MAKESILENT) -f allocation_basics/CMakeFiles/allocation_basic.dir/build.make allocation_basics/CMakeFiles/allocation_basic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target allocation_basic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target allocation_basic"
 .PHONY : allocation_basics/CMakeFiles/allocation_basic.dir/all
 
 # Build rule for subdir invocation for target.
@@ -289,7 +271,7 @@ allocation_basics/CMakeFiles/allocation_basic.dir/clean:
 Simple_calc/CMakeFiles/simple_Calc.dir/all:
 	$(MAKE) $(MAKESILENT) -f Simple_calc/CMakeFiles/simple_Calc.dir/build.make Simple_calc/CMakeFiles/simple_Calc.dir/depend
 	$(MAKE) $(MAKESILENT) -f Simple_calc/CMakeFiles/simple_Calc.dir/build.make Simple_calc/CMakeFiles/simple_Calc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=14,15,16 "Built target simple_Calc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=12,13,14 "Built target simple_Calc"
 .PHONY : Simple_calc/CMakeFiles/simple_Calc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -315,7 +297,7 @@ Simple_calc/CMakeFiles/simple_Calc.dir/clean:
 firstLibCall/CMakeFiles/firstLibCall.dir/all:
 	$(MAKE) $(MAKESILENT) -f firstLibCall/CMakeFiles/firstLibCall.dir/build.make firstLibCall/CMakeFiles/firstLibCall.dir/depend
 	$(MAKE) $(MAKESILENT) -f firstLibCall/CMakeFiles/firstLibCall.dir/build.make firstLibCall/CMakeFiles/firstLibCall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target firstLibCall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target firstLibCall"
 .PHONY : firstLibCall/CMakeFiles/firstLibCall.dir/all
 
 # Build rule for subdir invocation for target.
@@ -335,39 +317,13 @@ firstLibCall/CMakeFiles/firstLibCall.dir/clean:
 .PHONY : firstLibCall/CMakeFiles/firstLibCall.dir/clean
 
 #=============================================================================
-# Target rules for target Projekt1/CMakeFiles/Projekt1.dir
-
-# All Build rule for target.
-Projekt1/CMakeFiles/Projekt1.dir/all:
-	$(MAKE) $(MAKESILENT) -f Projekt1/CMakeFiles/Projekt1.dir/build.make Projekt1/CMakeFiles/Projekt1.dir/depend
-	$(MAKE) $(MAKESILENT) -f Projekt1/CMakeFiles/Projekt1.dir/build.make Projekt1/CMakeFiles/Projekt1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Projekt1"
-.PHONY : Projekt1/CMakeFiles/Projekt1.dir/all
-
-# Build rule for subdir invocation for target.
-Projekt1/CMakeFiles/Projekt1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Projekt1/CMakeFiles/Projekt1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles 0
-.PHONY : Projekt1/CMakeFiles/Projekt1.dir/rule
-
-# Convenience name for target.
-Projekt1: Projekt1/CMakeFiles/Projekt1.dir/rule
-.PHONY : Projekt1
-
-# clean rule for target.
-Projekt1/CMakeFiles/Projekt1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Projekt1/CMakeFiles/Projekt1.dir/build.make Projekt1/CMakeFiles/Projekt1.dir/clean
-.PHONY : Projekt1/CMakeFiles/Projekt1.dir/clean
-
-#=============================================================================
 # Target rules for target Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir
 
 # All Build rule for target.
 Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/all: Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/all
 	$(MAKE) $(MAKESILENT) -f Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/build.make Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/build.make Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target matrixApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target matrixApp"
 .PHONY : Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -393,7 +349,7 @@ Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/clean:
 Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/build.make Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/build.make Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target madLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target madLib"
 .PHONY : Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/all
 
 # Build rule for subdir invocation for target.

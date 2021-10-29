@@ -34,7 +34,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Projekt1-Matrix/CMakeLists.txt"
   "../Projekt1-Matrix/matrixApp/CMakeLists.txt"
   "../Projekt1-Matrix/matrixLib/CMakeLists.txt"
-  "../Projekt1/CMakeLists.txt"
   "../Simple_calc/CMakeLists.txt"
   "../allocation_basics/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
@@ -59,7 +58,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Simple_calc/CMakeFiles/CMakeDirectoryInformation.cmake"
   "firstLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "firstLibCall/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Projekt1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Projekt1-Matrix/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Projekt1-Matrix/matrixApp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Projekt1-Matrix/matrixLib/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -71,7 +69,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "allocation_basics/CMakeFiles/allocation_basic.dir/DependInfo.cmake"
   "Simple_calc/CMakeFiles/simple_Calc.dir/DependInfo.cmake"
   "firstLibCall/CMakeFiles/firstLibCall.dir/DependInfo.cmake"
-  "Projekt1/CMakeFiles/Projekt1.dir/DependInfo.cmake"
   "Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/DependInfo.cmake"
   "Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/DependInfo.cmake"
   )
