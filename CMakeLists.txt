@@ -10,8 +10,6 @@ add_subdirectory(firstLib)
 
 add_subdirectory(firstLibCall)
 
-add_subdirectory(Projekt1)
-
 add_subdirectory(Projekt1-Matrix)
 
 include_directories(".")

@@ -169,19 +169,6 @@ firstLibCall/fast:
 .PHONY : firstLibCall/fast
 
 #=============================================================================
-# Target rules for targets named Projekt1
-
-# Build rule for target.
-Projekt1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Projekt1
-.PHONY : Projekt1
-
-# fast build rule for target.
-Projekt1/fast:
-	$(MAKE) $(MAKESILENT) -f Projekt1/CMakeFiles/Projekt1.dir/build.make Projekt1/CMakeFiles/Projekt1.dir/build
-.PHONY : Projekt1/fast
-
-#=============================================================================
 # Target rules for targets named matrixApp
 
 # Build rule for target.
@@ -215,7 +202,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Projekt1"
 	@echo "... allocation_basic"
 	@echo "... firstClass"
 	@echo "... firstLibCall"

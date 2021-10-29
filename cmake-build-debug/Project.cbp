@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug"/>
@@ -207,48 +207,6 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/firstLibCall/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Projekt1">
-				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Projekt1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 Projekt1"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Projekt1/fast">
-				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Projekt1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 Projekt1/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="matrixApp">
 				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix/matrixApp/matrixApp.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix/matrixApp"/>
@@ -353,9 +311,6 @@
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Projekt1-Matrix/matrixLib/src/madlib.cpp">
 			<Option target="madLib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Projekt1/src/main.cpp">
-			<Option target="Projekt1"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Simple_calc/src/main.cpp">
 			<Option target="simple_Calc"/>
 		</Unit>
@@ -385,9 +340,6 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/firstLibCall/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\firstLibCall\"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Projekt1/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Projekt1\"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Projekt1-Matrix/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Projekt1-Matrix\"/>
