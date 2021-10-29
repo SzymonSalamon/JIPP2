@@ -196,6 +196,18 @@ void sortRowsInMatrix(int **tab,int x,int y);
  */
 void sortRowsInMatrix(double **tab,int x,int y);
 
+/*
+ * Funkcaj zwraca wyznacznik macierzy typu int
+ *  Opis parametrów:
+ *  matrix: wskaznik do tablicy dwuwymiarowej przechowujacej macierz
+ *  n: wymiar tablicy
+ */
 int determinantMatrix( int** matrix, int n);
 
+/*
+ * Funkcaj zwraca wyznacznik macierzy typu float
+ *  Opis parametrów:
+ *  matrix: wskaznik do tablicy dwuwymiarowej przechowujacej macierz
+ *  n: wymiar tablicy
+ */
 double determinantMatrix( double** matrix, int n);

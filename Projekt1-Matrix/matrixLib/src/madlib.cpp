@@ -29,7 +29,14 @@ int** makeMatrix(int x,int y,bool pusta) {
         for (i = 0; i < x; i++) {
             cout  << "Podaj wartosci wiersza oddzielone spacja:" << endl;
             for (int j = 0; j < y; j++) {
-                cin >> tab[i][j];
+                    cin >> tab[i][j];
+                while(cin.fail()){
+                    cout << "wprowadziles bledna wartosc"<<endl;
+                    cin.clear();
+                    cin.ignore(1000,'\n');
+                    cout <<"Wprowadz liczbe ponownie";
+                    cin >> tab[i][j];
+                }
             }
             cout << endl;
 
@@ -40,6 +47,7 @@ int** makeMatrix(int x,int y,bool pusta) {
             for (int j = 0; j < y; j++)
                 tab[i][j]=0;
     }
+    cin.ignore(1000,'\n');
     return tab;
 }
 double** makeMatrixDouble(int x,int y,bool pusta) {
@@ -53,6 +61,13 @@ double** makeMatrixDouble(int x,int y,bool pusta) {
             cout << "Podaj wartosci wiersza oddzielone spacja:" << endl;
             for (int j = 0; j < y; j++) {
                 cin >> tab[i][j];
+                while(cin.fail()){
+                    cout << "wprowadziles bledna wartosc"<<endl;
+                    cin.clear();
+                    cin.ignore(1000,'\n');
+                    cout <<"Wprowadz liczbe ponownie";
+                    cin >> tab[i][j];
+                }
             }
             cout << endl;
 
@@ -63,6 +78,7 @@ double** makeMatrixDouble(int x,int y,bool pusta) {
             for (int j = 0; j < y; j++)
                 tab[i][j]=0;
     }
+    cin.ignore(1000,'\n');
     return tab;
 }
 

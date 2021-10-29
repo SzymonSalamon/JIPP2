@@ -6,6 +6,32 @@
 #include <string.h>
 #include "madlib.h"
 using namespace std;
+void pytanie(char &wybor,int &x,int &y){
+    cout << "Podaj jakiego typu maja byc macierze(i - int,d - double)"<<endl;
+    cin >> wybor;
+    while(wybor!='i'&&wybor!='d'){
+        cout << "Bledna wartosc typu macierzy!!!"<<endl<<"Podaj jeszcze raz:"<<endl;
+        cin >>wybor;
+    }
+    cout << "Podaj wymiary macierzy(oddzielone spacja)"<<endl;
+    cin >> x;
+    while(cin.fail()){
+        cout << "wprowadziles bledna wartosc ilosci wierszy"<<endl;
+        cin.clear();
+        cin.ignore(1000,'\n');
+        cout <<"Wprowadz liczbe ponownie";
+        cin >> x;
+    }
+    cin >> y;
+    while(cin.fail()){
+        cout << "wprowadziles bledna wartosc ilosci kolumn"<<endl;
+        cin.clear();
+        cin.ignore(1000,'\n');
+        cout <<"Wprowadz liczbe ponownie";
+        cin >> y;
+    }
+    cin.ignore(1000,'\n');
+}
 void help(){
  cout << "Fukncje dostepne w programie:"<<endl;
  cout << "1.addMatrix: Dodawanie dwóch macierzy"<< endl;
@@ -26,12 +52,8 @@ int main(int argc ,char* argv[]) {
     } else {
         char wybor;
         int x,y;
-        cout << "Podaj jakiego typu maja byc macierze(i - int,d - double)"<<endl;
-        cin >> wybor;
-        cout << "Podaj wymiary macierzy(oddzielone spacja)"<<endl;
-        cin >> x;
-        cin >> y;
         if (strcmp(argv[1], "addMatrix") == 0){
+            pytanie(wybor,x,y);
             if(wybor=='i')
                 showMatrix(addMatrix(makeMatrix(x,y),makeMatrix(x,y),x,y),x,y);
             if(wybor=='d')
@@ -39,6 +61,7 @@ int main(int argc ,char* argv[]) {
             exit(1);
         }
         if (strcmp(argv[1], "subtractMatrix") == 0){
+            pytanie(wybor,x,y);
             if(wybor=='i'){
                 int **tab1 = makeMatrix(x,y);
                 int **tab2 = makeMatrix(x,y);
@@ -50,9 +73,17 @@ int main(int argc ,char* argv[]) {
             exit(1);
         }
         if (strcmp(argv[1], "multiplyMatrix") == 0){
+            pytanie(wybor,x,y);
             int z;
             cout << "Podaj ilosc kolumn drugiej macierzy"<<endl;
             cin >> z;
+            while(cin.fail()){
+                cout << "wprowadziles bledna wartosc"<<endl;
+                cin.clear();
+                cin.ignore(1000,'\n');
+                cout <<"Wprowadz liczbe ponownie";
+                cin >> z;
+            }
             if(wybor=='i'){
                 int **tab1 = makeMatrix(x,y);
                 int **tab2 = makeMatrix(x,y);
@@ -64,21 +95,37 @@ int main(int argc ,char* argv[]) {
             exit(1);
         }
         if (strcmp(argv[1], "multiplyByScalar") == 0){
+            pytanie(wybor,x,y);
             if(wybor=='i'){
                 int **tab1 = makeMatrix(x,y);
                 cout <<"Podaj skalar"<<endl;
                 int s;
+                while(cin.fail()){
+                    cout << "wprowadziles bledna wartosc"<<endl;
+                    cin.clear();
+                    cin.ignore(1000,'\n');
+                    cout <<"Wprowadz liczbe ponownie";
+                    cin >> s;
+                }
                 showMatrix(multiplyByScalar(tab1,x,y,s),x,y);
             }
             if(wybor=='d'){
                 double **tab1 = makeMatrixDouble(x,y);
                 cout <<"Podaj skalar"<<endl;
                 double s;
+                while(cin.fail()){
+                    cout << "wprowadziles bledna wartosc"<<endl;
+                    cin.clear();
+                    cin.ignore(1000,'\n');
+                    cout <<"Wprowadz liczbe ponownie";
+                    cin >> s;
+                }
                 showMatrix(multiplyByScalar(tab1,x,y,s),x,y);
             }
             exit(1);
         }
         if (strcmp(argv[1], "transpozeMatrix") == 0){
+            pytanie(wybor,x,y);
             if(wybor=='i'){
                 int **tab1 = makeMatrix(x,y);
                 showMatrix(transpozeMatrix(tab1,x,y),x,y);}
@@ -88,9 +135,17 @@ int main(int argc ,char* argv[]) {
             exit(1);
         }
         if (strcmp(argv[1], "powerMatrix") == 0){
+            pytanie(wybor,x,y);
             cout << "Podaj Potege:"<<endl;
             int z;
             cin >> z;
+            while(cin.fail()){
+                cout << "wprowadziles bledna wartosc"<<endl;
+                cin.clear();
+                cin.ignore(1000,'\n');
+                cout <<"Wprowadz liczbe ponownie";
+                cin >> z;
+            }
             if(wybor=='i'){
                 int **tab1 = makeMatrix(x,y);
                 showMatrix(powerMatrix(tab1,x,y,z),x,y);}
@@ -100,6 +155,7 @@ int main(int argc ,char* argv[]) {
             exit(1);
         }
         if (strcmp(argv[1], "matrixIsDiagonal") == 0){
+            pytanie(wybor,x,y);
             bool diag;
             if(wybor=='i'){
                 int **tab1 = makeMatrix(x,y);
@@ -114,6 +170,7 @@ int main(int argc ,char* argv[]) {
             exit(1);
         }
         if (strcmp(argv[1], "sortRowsInMatrix") == 0){
+            pytanie(wybor,x,y);
             if(wybor=='i'){
                 int **tab1 = makeMatrix(x,y);
                 sortRowsInMatrix(tab1,x,y);
@@ -125,6 +182,7 @@ int main(int argc ,char* argv[]) {
             exit(1);
         }
         if (strcmp(argv[1], "determinantMatrix") == 0) {
+            pytanie(wybor,x,y);
             if (wybor == 'i') {
                 int **tab1 = makeMatrix(x, y);
                 cout << "Wyznacznik macierzy wynosi:"<< determinantMatrix(tab1,x);
@@ -143,6 +201,6 @@ int main(int argc ,char* argv[]) {
             cout << "Nie rozpoznano polecenia" << endl;
             help();
         }
-        exit(20);
+        exit(0);
     }
 }
