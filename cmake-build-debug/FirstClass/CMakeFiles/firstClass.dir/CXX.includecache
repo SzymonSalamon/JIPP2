@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Firstclass/include/FirstClass.h
+iostream
+-
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Firstclass/src/main.cpp
+iostream
+-
+../include/FirstClass.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Firstclass/include/FirstClass.h
+

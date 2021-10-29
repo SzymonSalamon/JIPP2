@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libmadLibSTATIC.a CMakeFiles/madLibSTATIC.dir/src/madlib.cpp.o
+/usr/bin/ranlib.exe libmadLibSTATIC.a

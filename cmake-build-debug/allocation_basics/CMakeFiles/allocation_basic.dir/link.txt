@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/allocation_basic.dir/main.cpp.o -o allocation_basic.exe -Wl,--out-implib,liballocation_basic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

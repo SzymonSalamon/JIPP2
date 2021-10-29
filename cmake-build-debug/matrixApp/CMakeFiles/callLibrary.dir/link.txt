@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/callLibrary.dir/main.cpp.o -o callLibrary.exe -Wl,--out-implib,libcallLibrary.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../matrixLib/libmadLib.a 
