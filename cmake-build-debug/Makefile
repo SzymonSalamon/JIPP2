@@ -194,6 +194,84 @@ madLib/fast:
 	$(MAKE) $(MAKESILENT) -f Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/build.make Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/build
 .PHONY : madLib/fast
 
+#=============================================================================
+# Target rules for targets named auta
+
+# Build rule for target.
+auta: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 auta
+.PHONY : auta
+
+# fast build rule for target.
+auta/fast:
+	$(MAKE) $(MAKESILENT) -f lab5/CMakeFiles/auta.dir/build.make lab5/CMakeFiles/auta.dir/build
+.PHONY : auta/fast
+
+#=============================================================================
+# Target rules for targets named wektor
+
+# Build rule for target.
+wektor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wektor
+.PHONY : wektor
+
+# fast build rule for target.
+wektor/fast:
+	$(MAKE) $(MAKESILENT) -f lab6/CMakeFiles/wektor.dir/build.make lab6/CMakeFiles/wektor.dir/build
+.PHONY : wektor/fast
+
+#=============================================================================
+# Target rules for targets named lab7
+
+# Build rule for target.
+lab7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab7
+.PHONY : lab7
+
+# fast build rule for target.
+lab7/fast:
+	$(MAKE) $(MAKESILENT) -f lab7/CMakeFiles/lab7.dir/build.make lab7/CMakeFiles/lab7.dir/build
+.PHONY : lab7/fast
+
+#=============================================================================
+# Target rules for targets named lab71
+
+# Build rule for target.
+lab71: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab71
+.PHONY : lab71
+
+# fast build rule for target.
+lab71/fast:
+	$(MAKE) $(MAKESILENT) -f lab71/CMakeFiles/lab71.dir/build.make lab71/CMakeFiles/lab71.dir/build
+.PHONY : lab71/fast
+
+#=============================================================================
+# Target rules for targets named vectorExample
+
+# Build rule for target.
+vectorExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vectorExample
+.PHONY : vectorExample
+
+# fast build rule for target.
+vectorExample/fast:
+	$(MAKE) $(MAKESILENT) -f Lab9/CMakeFiles/vectorExample.dir/build.make Lab9/CMakeFiles/vectorExample.dir/build
+.PHONY : vectorExample/fast
+
+#=============================================================================
+# Target rules for targets named notatki
+
+# Build rule for target.
+notatki: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notatki
+.PHONY : notatki
+
+# fast build rule for target.
+notatki/fast:
+	$(MAKE) $(MAKESILENT) -f Notatnik/CMakeFiles/notatki.dir/build.make Notatnik/CMakeFiles/notatki.dir/build
+.PHONY : notatki/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -203,11 +281,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... allocation_basic"
+	@echo "... auta"
 	@echo "... firstClass"
 	@echo "... firstLibCall"
+	@echo "... lab7"
+	@echo "... lab71"
 	@echo "... madLib"
 	@echo "... matrixApp"
+	@echo "... notatki"
 	@echo "... simple_Calc"
+	@echo "... vectorExample"
+	@echo "... wektor"
 .PHONY : help
 
 

@@ -12,5 +12,17 @@ add_subdirectory(firstLibCall)
 
 add_subdirectory(Projekt1-Matrix)
 
+add_subdirectory(lab5)
+
+add_subdirectory(lab6)
+
+add_subdirectory(lab7)
+
+add_subdirectory(lab71)
+
+add_subdirectory(Lab9)
+
+add_subdirectory(Notatnik)
+
 include_directories(".")
 

@@ -284,10 +284,34 @@ allocation_basics_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2
 allocation_basics_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/allocation_basics
 
 //Value Computed by CMake
+auta_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab5
+
+//Value Computed by CMake
+auta_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5
+
+//Value Computed by CMake
 firstLibCall_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/firstLibCall
 
 //Value Computed by CMake
 firstLibCall_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/firstLibCall
+
+//Value Computed by CMake
+lab71_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab71
+
+//Value Computed by CMake
+lab71_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab71
+
+//Value Computed by CMake
+lab7_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab7
+
+//Value Computed by CMake
+lab7_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab7
+
+//Value Computed by CMake
+lab9_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab9
+
+//Value Computed by CMake
+lab9_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9
 
 //Value Computed by CMake
 matrixApp_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix
@@ -302,10 +326,28 @@ matrixLib_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake
 matrixLib_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/matrixLib
 
 //Value Computed by CMake
+notatki_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik
+
+//Value Computed by CMake
+notatki_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Notatnik
+
+//Value Computed by CMake
 simpleCalc_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Simple_calc
 
 //Value Computed by CMake
 simpleCalc_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Simple_calc
+
+//Value Computed by CMake
+vectorExample_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab9
+
+//Value Computed by CMake
+vectorExample_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9
+
+//Value Computed by CMake
+wektor_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab6
+
+//Value Computed by CMake
+wektor_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab6
 
 
 ########################
@@ -418,7 +460,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

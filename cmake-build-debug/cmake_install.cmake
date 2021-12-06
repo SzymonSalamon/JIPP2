@@ -67,6 +67,36 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab5/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab6/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab7/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/lab71/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab9/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

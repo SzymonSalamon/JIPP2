@@ -5,7 +5,7 @@
 		<Option title="allocation_basics"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab71\;CMake Files\Lab9\;CMake Files\Notatnik\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/allocation_basics"/>
@@ -89,6 +89,24 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Projekt1-Matrix/matrixLib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Projekt1-Matrix\matrixLib\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab6\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab71/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab71\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab9\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Notatnik/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Notatnik\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

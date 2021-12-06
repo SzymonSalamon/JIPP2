@@ -31,6 +31,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/cygdrive/c/Users/Szymon/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/share/cmake-3.20.2/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "../Firstclass/CMakeLists.txt"
+  "../Lab9/CMakeLists.txt"
+  "../Notatnik/CMakeLists.txt"
   "../Projekt1-Matrix/CMakeLists.txt"
   "../Projekt1-Matrix/matrixApp/CMakeLists.txt"
   "../Projekt1-Matrix/matrixLib/CMakeLists.txt"
@@ -42,6 +44,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "../firstLib/CMakeLists.txt"
   "../firstLibCall/CMakeLists.txt"
+  "../lab5/CMakeLists.txt"
+  "../lab6/CMakeLists.txt"
+  "../lab7/CMakeLists.txt"
+  "../lab71/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -61,6 +67,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Projekt1-Matrix/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Projekt1-Matrix/matrixApp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Projekt1-Matrix/matrixLib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab5/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab7/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab71/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Lab9/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Notatnik/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -71,4 +83,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "firstLibCall/CMakeFiles/firstLibCall.dir/DependInfo.cmake"
   "Projekt1-Matrix/matrixApp/CMakeFiles/matrixApp.dir/DependInfo.cmake"
   "Projekt1-Matrix/matrixLib/CMakeFiles/madLib.dir/DependInfo.cmake"
+  "lab5/CMakeFiles/auta.dir/DependInfo.cmake"
+  "lab6/CMakeFiles/wektor.dir/DependInfo.cmake"
+  "lab7/CMakeFiles/lab7.dir/DependInfo.cmake"
+  "lab71/CMakeFiles/lab71.dir/DependInfo.cmake"
+  "Lab9/CMakeFiles/vectorExample.dir/DependInfo.cmake"
+  "Notatnik/CMakeFiles/notatki.dir/DependInfo.cmake"
   )

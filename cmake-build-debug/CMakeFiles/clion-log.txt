@@ -33,10 +33,6 @@ Call Stack (most recent call first):
   CMakeLists.txt
 
 
-CMake Error at CMakeLists.txt:13 (add_subdirectory):
-  add_subdirectory given source "Projekt1" which is not an existing
-  directory.
-
-
--- Configuring incomplete, errors occurred!
-See also "/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug
