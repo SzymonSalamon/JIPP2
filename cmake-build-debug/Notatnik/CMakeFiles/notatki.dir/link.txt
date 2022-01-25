@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/notatki.dir/src/main.cpp.o CMakeFiles/notatki.dir/src/note.cpp.o -o notatki.exe -Wl,--out-implib,libnotatki.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

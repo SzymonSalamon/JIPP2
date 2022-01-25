@@ -2,7 +2,7 @@
 // Created by Szymon on 08.11.2021.
 //
 
-#include "auta.h"
+#include "RAII.h"
 
 Pojazd::Pojazd(string rejestracja, string marka, string nazwa, int miejsca, string typ) {
     *this->rejestracja = rejestracja;

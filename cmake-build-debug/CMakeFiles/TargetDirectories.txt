@@ -37,6 +37,12 @@
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab9/CMakeFiles/edit_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab9/CMakeFiles/rebuild_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab9/CMakeFiles/vectorExample.dir
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/CMakeFiles/matrixTest.dir
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/CMakeFiles/ESM.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik/CMakeFiles/rebuild_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik/CMakeFiles/edit_cache.dir
 /cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik/CMakeFiles/notatki.dir

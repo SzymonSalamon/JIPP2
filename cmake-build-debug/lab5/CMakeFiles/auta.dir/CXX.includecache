@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab5/include/auta.h
+iostream
+-
+string.h
+-
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/src/auta.cpp
+auta.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/src/auta.h
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/src/main.cpp
+iostream
+-
+auta.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/src/auta.h
+

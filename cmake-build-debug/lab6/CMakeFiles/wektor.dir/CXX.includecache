@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab6/include/triangle.h
+wektor.h
+../lab6/include/wektor.h
+
+../lab6/include/wektor.h
+iostream
+-
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab6/src/triangle.cpp
+triangle.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab6/src/triangle.h
+iostream
+-
+

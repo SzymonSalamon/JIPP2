@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libmadLib.a CMakeFiles/madLib.dir/src/madlib.cpp.o
+/usr/bin/ranlib.exe libmadLib.a

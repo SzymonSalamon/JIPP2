@@ -22,6 +22,9 @@ add_subdirectory(lab71)
 
 add_subdirectory(Lab9)
 
+add_subdirectory(Lab13)
+
+add_subdirectory(ESM-Proj2)
 add_subdirectory(Notatnik)
 
 include_directories(".")

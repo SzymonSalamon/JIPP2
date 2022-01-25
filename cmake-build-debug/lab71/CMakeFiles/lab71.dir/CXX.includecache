@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab71/include/figury.h
+string
+-
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab71/src/figury.cpp
+figury.h
+-
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab71/src/main.cpp
+iostream
+-
+figury.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab71/src/figury.h
+

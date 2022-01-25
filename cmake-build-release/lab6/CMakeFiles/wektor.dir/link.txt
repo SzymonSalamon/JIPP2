@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -O3 -DNDEBUG -Wl,--enable-auto-import CMakeFiles/wektor.dir/src/main.cpp.o CMakeFiles/wektor.dir/src/wektor.cpp.o CMakeFiles/wektor.dir/src/triangle.cpp.o -o wektor.exe -Wl,--out-implib,libwektor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

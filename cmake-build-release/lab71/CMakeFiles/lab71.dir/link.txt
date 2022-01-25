@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -O3 -DNDEBUG -Wl,--enable-auto-import CMakeFiles/lab71.dir/src/main.cpp.o CMakeFiles/lab71.dir/src/note.cpp.o -o lab71.exe -Wl,--out-implib,liblab71.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

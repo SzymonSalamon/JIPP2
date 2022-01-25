@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Line.cpp
+Line.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Line.h
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Line.h
+iostream
+-
+vector
+-
+Stop.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Stop.h
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Stop.cpp
+Stop.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Stop.h
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Stop.h
+iostream
+-
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/vExample.cpp
+iostream
+-
+vector
+-
+Stop.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Stop.h
+Line.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Line.h
+

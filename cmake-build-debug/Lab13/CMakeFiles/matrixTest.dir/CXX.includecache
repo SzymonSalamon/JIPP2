@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Lab13/include/TimeMeasure.h
+chrono
+-
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/src/TimeMeasure.cpp
+TimeMeasure.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/src/TimeMeasure.h
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/src/main.cpp
+iostream
+-
+vector
+-
+random
+-
+TimeMeasure.h
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/src/TimeMeasure.h
+

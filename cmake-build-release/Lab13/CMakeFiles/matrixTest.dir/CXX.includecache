@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/src/main.cpp
+iostream
+-
+thread
+-
+chrono
+-
+random
+-
+iomanip
+-
+mutex
+-
+

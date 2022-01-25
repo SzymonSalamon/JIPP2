@@ -248,6 +248,12 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip.exe
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+ESM_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2
+
+//Value Computed by CMake
+ESM_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/ESM-Proj2
+
+//Value Computed by CMake
 FirstClass_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Firstclass
 
 //Value Computed by CMake
@@ -324,6 +330,12 @@ matrixLib_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake
 
 //Value Computed by CMake
 matrixLib_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/matrixLib
+
+//Value Computed by CMake
+matrixTest_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13
+
+//Value Computed by CMake
+matrixTest_SOURCE_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13
 
 //Value Computed by CMake
 notatki_BINARY_DIR:STATIC=/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik
@@ -460,7 +472,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab71\;CMake Files\Lab9\;CMake Files\Notatnik\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ESM-Proj2\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab71\;CMake Files\Lab9\;CMake Files\Lab13\;CMake Files\Notatnik\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug"/>
@@ -513,6 +513,94 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab9/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="matrixTest">
+				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/matrixTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 matrixTest"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixTest/fast">
+				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/matrixTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 matrixTest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Lab13/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ESM">
+				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/ESM.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/ESM-Proj2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 ESM"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ESM/fast">
+				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/ESM.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/ESM-Proj2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 ESM/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/ESM-Proj2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="notatki">
 				<Option output="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik/notatki.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Notatnik"/>
@@ -558,6 +646,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/ESM-Proj2/src/ESM.cpp">
+			<Option target="ESM"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/ESM-Proj2/src/main.cpp">
+			<Option target="ESM"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Firstclass/include/FirstClass.h">
 			<Option target="firstClass"/>
 		</Unit>
@@ -566,6 +660,9 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Firstclass/src/main.cpp">
 			<Option target="firstClass"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/src/main.cpp">
+			<Option target="matrixTest"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/Line.cpp">
 			<Option target="vectorExample"/>
@@ -606,7 +703,7 @@
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/firstLibCall/main.cpp">
 			<Option target="firstLibCall"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/src/auta.cpp">
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/src/RAII.cpp">
 			<Option target="auta"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/lab5/src/main.cpp">
@@ -635,6 +732,9 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/ESM-Proj2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ESM-Proj2\"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Firstclass/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Firstclass\"/>
@@ -674,6 +774,9 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab9\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab13\"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Notatnik/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Notatnik\"/>

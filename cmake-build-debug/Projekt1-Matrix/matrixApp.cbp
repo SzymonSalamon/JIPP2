@@ -5,7 +5,7 @@
 		<Option title="matrixApp"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab71\;CMake Files\Lab9\;CMake Files\Notatnik\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ESM-Proj2\;CMake Files\Firstclass\;CMake Files\allocation_basics\;CMake Files\Simple_calc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\Projekt1-Matrix\;CMake Files\Projekt1-Matrix\matrixApp\;CMake Files\Projekt1-Matrix\matrixLib\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab71\;CMake Files\Lab9\;CMake Files\Lab13\;CMake Files\Notatnik\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/cmake-build-debug/Projekt1-Matrix"/>
@@ -115,6 +115,9 @@
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/ESM-Proj2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ESM-Proj2\"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Firstclass/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Firstclass\"/>
 		</Unit>
@@ -153,6 +156,9 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab9\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Lab13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab13\"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Szymon/CLionProjects/JIPP2/2/Notatnik/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Notatnik\"/>

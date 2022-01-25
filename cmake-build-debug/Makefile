@@ -260,6 +260,32 @@ vectorExample/fast:
 .PHONY : vectorExample/fast
 
 #=============================================================================
+# Target rules for targets named matrixTest
+
+# Build rule for target.
+matrixTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matrixTest
+.PHONY : matrixTest
+
+# fast build rule for target.
+matrixTest/fast:
+	$(MAKE) $(MAKESILENT) -f Lab13/CMakeFiles/matrixTest.dir/build.make Lab13/CMakeFiles/matrixTest.dir/build
+.PHONY : matrixTest/fast
+
+#=============================================================================
+# Target rules for targets named ESM
+
+# Build rule for target.
+ESM: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ESM
+.PHONY : ESM
+
+# fast build rule for target.
+ESM/fast:
+	$(MAKE) $(MAKESILENT) -f ESM-Proj2/CMakeFiles/ESM.dir/build.make ESM-Proj2/CMakeFiles/ESM.dir/build
+.PHONY : ESM/fast
+
+#=============================================================================
 # Target rules for targets named notatki
 
 # Build rule for target.
@@ -280,6 +306,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ESM"
 	@echo "... allocation_basic"
 	@echo "... auta"
 	@echo "... firstClass"
@@ -288,6 +315,7 @@ help:
 	@echo "... lab71"
 	@echo "... madLib"
 	@echo "... matrixApp"
+	@echo "... matrixTest"
 	@echo "... notatki"
 	@echo "... simple_Calc"
 	@echo "... vectorExample"

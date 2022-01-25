@@ -1,0 +1,7 @@
+Szymon,Salamon,1,2134,IT,Informatyk,
+Wojtek,Kajtek,2,2137,KSI,Ksiegowy,
+Andrzej,Sumek,3,4500,PR,Kierownik,
+Mateusz,Salamon,4,3200,EL,Elektryk,
+Kuba,Krokiew,5,1237.45,IT,Wsparcie,
+Andrzej,Bak,6,3865.22,KSI,Kierownik,
+Krzysztof,Mirek,7,4560.25,IT,Tester,

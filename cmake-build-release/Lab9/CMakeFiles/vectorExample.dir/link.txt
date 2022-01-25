@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -O3 -DNDEBUG -Wl,--enable-auto-import CMakeFiles/vectorExample.dir/Stop.cpp.o CMakeFiles/vectorExample.dir/vExample.cpp.o CMakeFiles/vectorExample.dir/Line.cpp.o -o vectorExample.exe -Wl,--out-implib,libvectorExample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
